@@ -1,0 +1,707 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.2 (win64) Build 2258646 Thu Jun 14 20:03:12 MDT 2018
+| Date         : Wed Apr 22 02:22:36 2020
+| Host         : DESKTOP-9CHGBR2 running 64-bit major release  (build 9200)
+| Command      : report_drc -file design_1_wrapper_drc_opted.rpt -pb design_1_wrapper_drc_opted.pb -rpx design_1_wrapper_drc_opted.rpx
+| Design       : design_1_wrapper
+| Device       : xc7z010clg400-1
+| Speed File   : -1
+| Design State : Synthesized
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Report DRC
+
+Table of Contents
+-----------------
+1. REPORT SUMMARY
+2. REPORT DETAILS
+
+1. REPORT SUMMARY
+-----------------
+            Netlist: netlist
+          Floorplan: design_1
+      Design limits: <entire design considered>
+           Ruledeck: default
+             Max violations: <unlimited>
+             Violations found: 130
++-------------+----------+-------------------------------------------------------------+------------+
+| Rule        | Severity | Description                                                 | Violations |
++-------------+----------+-------------------------------------------------------------+------------+
+| LUTLP-2     | Warning  | Combinatorial Loop Allowed                                  | 128        |
+| PLHOLDVIO-2 | Warning  | Non-Optimal connections which could lead to hold violations | 2          |
++-------------+----------+-------------------------------------------------------------+------------+
+
+2. REPORT DETAILS
+-----------------
+LUTLP-2#1 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[0].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[0].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[0].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[0].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[0].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#2 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[0].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[0].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[0].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[0].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[0].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#3 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[10].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[10].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[10].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[10].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[10].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#4 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[10].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[10].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[10].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[10].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[10].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#5 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[11].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[11].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[11].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[11].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[11].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#6 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[11].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[11].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[11].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[11].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[11].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#7 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[12].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[12].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[12].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[12].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[12].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#8 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[12].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[12].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[12].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[12].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[12].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#9 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[13].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[13].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[13].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[13].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[13].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#10 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[13].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[13].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[13].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[13].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[13].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#11 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[14].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[14].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[14].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[14].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[14].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#12 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[14].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[14].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[14].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[14].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[14].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#13 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[15].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[15].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[15].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[15].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[15].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#14 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[15].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[15].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[15].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[15].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[15].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#15 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[16].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[16].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[16].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[16].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[16].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#16 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[16].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[16].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[16].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[16].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[16].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#17 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[17].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[17].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[17].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[17].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[17].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#18 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[17].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[17].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[17].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[17].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[17].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#19 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[18].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[18].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[18].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[18].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[18].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#20 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[18].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[18].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[18].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[18].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[18].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#21 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[19].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[19].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[19].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[19].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[19].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#22 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[19].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[19].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[19].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[19].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[19].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#23 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[1].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[1].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[1].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[1].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[1].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#24 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[1].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[1].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[1].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[1].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[1].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#25 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[20].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[20].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[20].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[20].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[20].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#26 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[20].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[20].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[20].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[20].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[20].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#27 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[21].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[21].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[21].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[21].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[21].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#28 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[21].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[21].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[21].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[21].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[21].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#29 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[22].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[22].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[22].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[22].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[22].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#30 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[22].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[22].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[22].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[22].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[22].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#31 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[23].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[23].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[23].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[23].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[23].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#32 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[23].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[23].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[23].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[23].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[23].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#33 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[24].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[24].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[24].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[24].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[24].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#34 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[24].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[24].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[24].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[24].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[24].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#35 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[25].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[25].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[25].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[25].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[25].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#36 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[25].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[25].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[25].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[25].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[25].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#37 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[26].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[26].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[26].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[26].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[26].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#38 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[26].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[26].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[26].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[26].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[26].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#39 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[27].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[27].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[27].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[27].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[27].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#40 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[27].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[27].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[27].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[27].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[27].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#41 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[28].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[28].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[28].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[28].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[28].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#42 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[28].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[28].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[28].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[28].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[28].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#43 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[29].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[29].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[29].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[29].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[29].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#44 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[29].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[29].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[29].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[29].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[29].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#45 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[2].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[2].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[2].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[2].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[2].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#46 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[2].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[2].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[2].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[2].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[2].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#47 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[30].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[30].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[30].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[30].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[30].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#48 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[30].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[30].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[30].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[30].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[30].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#49 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[31].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[31].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[31].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[31].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[31].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#50 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[31].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[31].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[31].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[31].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[31].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#51 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[32].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[32].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[32].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[32].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[32].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#52 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[32].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[32].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[32].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[32].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[32].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#53 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[33].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[33].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[33].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[33].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[33].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#54 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[33].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[33].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[33].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[33].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[33].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#55 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[34].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[34].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[34].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[34].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[34].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#56 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[34].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[34].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[34].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[34].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[34].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#57 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[35].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[35].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[35].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[35].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[35].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#58 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[35].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[35].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[35].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[35].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[35].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#59 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[36].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[36].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[36].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[36].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[36].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#60 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[36].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[36].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[36].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[36].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[36].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#61 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[37].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[37].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[37].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[37].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[37].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#62 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[37].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[37].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[37].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[37].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[37].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#63 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[38].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[38].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[38].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[38].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[38].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#64 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[38].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[38].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[38].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[38].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[38].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#65 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[39].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[39].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[39].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[39].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[39].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#66 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[39].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[39].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[39].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[39].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[39].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#67 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[3].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[3].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[3].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[3].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[3].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#68 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[3].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[3].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[3].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[3].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[3].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#69 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[40].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[40].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[40].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[40].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[40].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#70 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[40].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[40].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[40].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[40].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[40].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#71 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[41].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[41].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[41].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[41].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[41].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#72 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[41].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[41].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[41].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[41].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[41].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#73 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[42].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[42].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[42].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[42].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[42].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#74 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[42].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[42].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[42].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[42].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[42].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#75 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[43].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[43].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[43].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[43].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[43].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#76 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[43].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[43].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[43].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[43].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[43].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#77 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[44].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[44].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[44].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[44].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[44].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#78 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[44].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[44].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[44].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[44].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[44].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#79 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[45].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[45].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[45].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[45].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[45].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#80 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[45].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[45].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[45].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[45].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[45].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#81 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[46].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[46].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[46].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[46].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[46].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#82 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[46].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[46].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[46].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[46].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[46].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#83 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[47].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[47].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[47].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[47].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[47].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#84 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[47].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[47].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[47].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[47].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[47].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#85 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[48].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[48].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[48].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[48].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[48].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#86 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[48].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[48].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[48].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[48].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[48].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#87 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[49].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[49].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[49].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[49].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[49].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#88 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[49].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[49].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[49].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[49].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[49].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#89 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[4].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[4].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[4].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[4].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[4].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#90 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[4].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[4].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[4].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[4].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[4].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#91 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[50].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[50].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[50].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[50].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[50].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#92 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[50].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[50].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[50].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[50].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[50].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#93 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[51].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[51].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[51].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[51].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[51].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#94 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[51].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[51].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[51].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[51].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[51].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#95 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[52].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[52].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[52].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[52].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[52].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#96 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[52].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[52].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[52].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[52].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[52].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#97 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[53].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[53].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[53].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[53].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[53].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#98 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[53].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[53].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[53].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[53].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[53].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#99 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[54].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[54].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[54].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[54].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[54].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#100 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[54].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[54].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[54].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[54].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[54].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#101 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[55].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[55].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[55].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[55].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[55].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#102 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[55].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[55].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[55].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[55].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[55].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#103 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[56].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[56].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[56].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[56].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[56].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#104 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[56].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[56].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[56].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[56].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[56].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#105 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[57].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[57].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[57].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[57].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[57].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#106 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[57].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[57].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[57].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[57].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[57].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#107 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[58].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[58].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[58].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[58].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[58].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#108 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[58].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[58].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[58].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[58].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[58].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#109 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[59].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[59].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[59].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[59].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[59].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#110 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[59].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[59].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[59].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[59].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[59].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#111 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[5].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[5].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[5].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[5].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[5].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#112 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[5].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[5].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[5].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[5].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[5].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#113 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[60].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[60].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[60].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[60].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[60].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#114 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[60].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[60].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[60].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[60].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[60].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#115 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[61].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[61].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[61].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[61].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[61].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#116 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[61].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[61].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[61].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[61].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[61].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#117 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[62].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[62].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[62].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[62].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[62].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#118 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[62].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[62].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[62].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[62].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[62].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#119 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[63].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[63].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[63].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[63].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[63].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#120 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[63].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[63].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[63].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[63].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[63].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#121 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[6].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[6].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[6].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[6].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[6].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#122 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[6].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[6].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[6].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[6].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[6].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#123 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[7].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[7].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[7].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[7].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[7].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#124 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[7].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[7].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[7].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[7].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[7].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#125 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[8].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[8].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[8].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[8].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[8].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#126 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[8].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[8].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[8].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[8].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[8].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#127 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[9].ro1/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[9].ro1/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[9].ro1/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[9].ro1/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[9].ro1/NAND0/c_INST_0.
+Related violations: <none>
+
+LUTLP-2#128 Warning
+Combinatorial Loop Allowed  
+5 LUT cells form a combinatorial loop. This can create a race condition. Timing analysis may not be accurate. The preferred resolution is to modify the design to remove combinatorial logic loops. This loop has been identified in the constraints as being known and understood by use of the ALLOW_COMBINATORIAL_LOOPS property on a net in the loop. The cells in the loop are: design_1_i/ro_puf_0/inst/ro_blocks[9].ro2/NOT1/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[9].ro2/NOT2/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[9].ro2/NOT3/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[9].ro2/NOT4/b_INST_0, design_1_i/ro_puf_0/inst/ro_blocks[9].ro2/NAND0/c_INST_0.
+Related violations: <none>
+
+PLHOLDVIO-2#1 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/ro_puf_0/inst/roSet1/out_INST_0 is driving clock pin of 108 cells. This could lead to large hold time violations. First few involved cells are:
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[0] {FDRE}
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[10] {FDRE}
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[11] {FDRE}
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[12] {FDRE}
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[13] {FDRE}
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[14] {FDRE}
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[15] {FDRE}
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[16] {FDRE}
+    design_1_i/ro_puf_0/inst/PUFResponse_reg[17] {FDRE}
+
+Related violations: <none>
+
+PLHOLDVIO-2#2 Warning
+Non-Optimal connections which could lead to hold violations  
+A LUT design_1_i/ro_puf_0/inst/roSet2/out_INST_0 is driving clock pin of 38 cells. This could lead to large hold time violations. First few involved cells are:
+    design_1_i/ro_puf_0/inst/old_counter_reg[0] {FDRE}
+    design_1_i/ro_puf_0/inst/old_counter_reg[1] {FDRE}
+    design_1_i/ro_puf_0/inst/old_counter_reg[2] {FDRE}
+    design_1_i/ro_puf_0/inst/old_counter_reg[3] {FDRE}
+    design_1_i/ro_puf_0/inst/old_counter_reg[4] {FDRE}
+    design_1_i/ro_puf_0/inst/old_counter_reg[5] {FDRE}
+    design_1_i/ro_puf_0/inst/rocounter2_reg[0] {FDRE}
+    design_1_i/ro_puf_0/inst/rocounter2_reg[10] {FDRE}
+    design_1_i/ro_puf_0/inst/rocounter2_reg[11] {FDRE}
+
+Related violations: <none>
+
+

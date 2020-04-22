@@ -1,0 +1,1094 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Wed Apr 22 00:17:31 2020
+# Process ID: 21876
+# Current directory: C:/workspace/2020/vivado-project/puf_soc/puf_soc.runs/design_1_ro_puf_0_0_synth_1
+# Command line: vivado.exe -log design_1_ro_puf_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_ro_puf_0_0.tcl
+# Log file: C:/workspace/2020/vivado-project/puf_soc/puf_soc.runs/design_1_ro_puf_0_0_synth_1/design_1_ro_puf_0_0.vds
+# Journal file: C:/workspace/2020/vivado-project/puf_soc/puf_soc.runs/design_1_ro_puf_0_0_synth_1\vivado.jou
+#-----------------------------------------------------------
+source design_1_ro_puf_0_0.tcl -notrace
+Command: synth_design -top design_1_ro_puf_0_0 -part xc7z010clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 11384 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 463.156 ; gain = 93.621
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'design_1_ro_puf_0_0' [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ip/design_1_ro_puf_0_0/synth/design_1_ro_puf_0_0.v:58]
+INFO: [Synth 8-6157] synthesizing module 'ro_puf' [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/ro_puf.v:3]
+	Parameter MAX_COUNT bound to: 20000 - type: integer 
+	Parameter DATA_WIDTH bound to: 64 - type: integer 
+	Parameter COUNTER_WIDTH bound to: 6 - type: integer 
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/ro_puf.v:15]
+INFO: [Synth 8-6157] synthesizing module 'ro_unit' [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/ro_unit.v:5]
+INFO: [Synth 8-5534] Detected attribute (* keep = "true" *) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/ro_unit.v:10]
+INFO: [Synth 8-6157] synthesizing module 'NANDFUNC' [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/NANDFUNC.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'NANDFUNC' (1#1) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/NANDFUNC.v:8]
+INFO: [Synth 8-6157] synthesizing module 'NOTFUNC' [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/NOTFUNC.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'NOTFUNC' (2#1) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/NOTFUNC.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ro_unit' (3#1) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/ro_unit.v:5]
+INFO: [Synth 8-6157] synthesizing module 'mux64to1' [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/mux64to1.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'mux64to1' (4#1) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/mux64to1.v:4]
+INFO: [Synth 8-6157] synthesizing module 'dispModule' [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/dispModule.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'dispModule' (5#1) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/dispModule.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'ro_puf' (6#1) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/ro_puf.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ro_puf_0_0' (7#1) [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ip/design_1_ro_puf_0_0/synth/design_1_ro_puf_0_0.v:58]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 518.629 ; gain = 149.094
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 518.629 ; gain = 149.094
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 518.629 ; gain = 149.094
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z010clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+WARNING: [Constraints 18-5210] No constraint will be written out.
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.085 . Memory (MB): peak = 844.465 ; gain = 3.266
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 844.465 ; gain = 474.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z010clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 844.465 ; gain = 474.930
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:17 . Memory (MB): peak = 844.465 ; gain = 474.930
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5545] ROM "rocounter1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-327] inferring latch for variable 'leds_reg' [c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ipshared/6f16/dispModule.v:13]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 844.465 ; gain = 474.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module ro_puf 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
+	   2 Input      6 Bit       Adders := 1     
+	   3 Input      6 Bit       Adders := 1     
++---Registers : 
+	               64 Bit    Registers := 1     
+	               32 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
++---Muxes : 
+	   2 Input     64 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
+	   2 Input      6 Bit        Muxes := 3     
+	   2 Input      1 Bit        Muxes := 3     
+	   3 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 80 (col length:40)
+BRAMs: 120 (col length: RAMB18 40 RAMB36 20)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+INFO: [Synth 8-5545] ROM "rocounter1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "current_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/rocounter1" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-5545] ROM "inst/current_counter" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+INFO: [Synth 8-3332] Sequential element (inst/disp1/leds_reg[3]) is unused and will be removed from module design_1_ro_puf_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/disp1/leds_reg[2]) is unused and will be removed from module design_1_ro_puf_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/disp1/leds_reg[1]) is unused and will be removed from module design_1_ro_puf_0_0.
+INFO: [Synth 8-3332] Sequential element (inst/disp1/leds_reg[0]) is unused and will be removed from module design_1_ro_puf_0_0.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:24 . Memory (MB): peak = 844.465 ; gain = 474.930
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 851.094 ; gain = 481.559
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:30 ; elapsed = 00:00:36 . Memory (MB): peak = 851.613 ; gain = 482.078
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:31 ; elapsed = 00:00:37 . Memory (MB): peak = 875.328 ; gain = 505.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 875.328 ; gain = 505.793
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:38 . Memory (MB): peak = 875.328 ; gain = 505.793
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 875.328 ; gain = 505.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 875.328 ; gain = 505.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 875.328 ; gain = 505.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 875.328 ; gain = 505.793
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    16|
+|2     |LUT1   |   515|
+|3     |LUT2   |   138|
+|4     |LUT3   |    19|
+|5     |LUT4   |    10|
+|6     |LUT5   |    77|
+|7     |LUT6   |   115|
+|8     |MUXF7  |    24|
+|9     |MUXF8  |    12|
+|10    |FDRE   |   146|
++------+-------+------+
+
+Report Instance Areas: 
++------+------------------------+--------------+------+
+|      |Instance                |Module        |Cells |
++------+------------------------+--------------+------+
+|1     |top                     |              |  1072|
+|2     |  inst                  |ro_puf        |  1072|
+|3     |    roSet1              |mux64to1__1   |    29|
+|4     |    roSet2              |mux64to1      |    29|
+|5     |    \ro_blocks[0].ro1   |ro_unit__1    |     5|
+|6     |      NAND0             |NANDFUNC__1   |     1|
+|7     |      NOT1              |NOTFUNC__7    |     1|
+|8     |      NOT2              |NOTFUNC__6    |     1|
+|9     |      NOT3              |NOTFUNC__5    |     1|
+|10    |      NOT4              |NOTFUNC__4    |     1|
+|11    |    \ro_blocks[0].ro2   |ro_unit__2    |     5|
+|12    |      NAND0             |NANDFUNC__2   |     1|
+|13    |      NOT1              |NOTFUNC__11   |     1|
+|14    |      NOT2              |NOTFUNC__10   |     1|
+|15    |      NOT3              |NOTFUNC__9    |     1|
+|16    |      NOT4              |NOTFUNC__8    |     1|
+|17    |    \ro_blocks[1].ro1   |ro_unit__3    |     5|
+|18    |      NAND0             |NANDFUNC__3   |     1|
+|19    |      NOT1              |NOTFUNC__15   |     1|
+|20    |      NOT2              |NOTFUNC__14   |     1|
+|21    |      NOT3              |NOTFUNC__13   |     1|
+|22    |      NOT4              |NOTFUNC__12   |     1|
+|23    |    \ro_blocks[1].ro2   |ro_unit__4    |     5|
+|24    |      NAND0             |NANDFUNC__4   |     1|
+|25    |      NOT1              |NOTFUNC__19   |     1|
+|26    |      NOT2              |NOTFUNC__18   |     1|
+|27    |      NOT3              |NOTFUNC__17   |     1|
+|28    |      NOT4              |NOTFUNC__16   |     1|
+|29    |    \ro_blocks[2].ro1   |ro_unit__5    |     5|
+|30    |      NAND0             |NANDFUNC__5   |     1|
+|31    |      NOT1              |NOTFUNC__23   |     1|
+|32    |      NOT2              |NOTFUNC__22   |     1|
+|33    |      NOT3              |NOTFUNC__21   |     1|
+|34    |      NOT4              |NOTFUNC__20   |     1|
+|35    |    \ro_blocks[2].ro2   |ro_unit__6    |     5|
+|36    |      NAND0             |NANDFUNC__6   |     1|
+|37    |      NOT1              |NOTFUNC__27   |     1|
+|38    |      NOT2              |NOTFUNC__26   |     1|
+|39    |      NOT3              |NOTFUNC__25   |     1|
+|40    |      NOT4              |NOTFUNC__24   |     1|
+|41    |    \ro_blocks[3].ro1   |ro_unit__7    |     5|
+|42    |      NAND0             |NANDFUNC__7   |     1|
+|43    |      NOT1              |NOTFUNC__31   |     1|
+|44    |      NOT2              |NOTFUNC__30   |     1|
+|45    |      NOT3              |NOTFUNC__29   |     1|
+|46    |      NOT4              |NOTFUNC__28   |     1|
+|47    |    \ro_blocks[3].ro2   |ro_unit__8    |     5|
+|48    |      NAND0             |NANDFUNC__8   |     1|
+|49    |      NOT1              |NOTFUNC__35   |     1|
+|50    |      NOT2              |NOTFUNC__34   |     1|
+|51    |      NOT3              |NOTFUNC__33   |     1|
+|52    |      NOT4              |NOTFUNC__32   |     1|
+|53    |    \ro_blocks[4].ro1   |ro_unit__9    |     5|
+|54    |      NAND0             |NANDFUNC__9   |     1|
+|55    |      NOT1              |NOTFUNC__39   |     1|
+|56    |      NOT2              |NOTFUNC__38   |     1|
+|57    |      NOT3              |NOTFUNC__37   |     1|
+|58    |      NOT4              |NOTFUNC__36   |     1|
+|59    |    \ro_blocks[4].ro2   |ro_unit__10   |     5|
+|60    |      NAND0             |NANDFUNC__10  |     1|
+|61    |      NOT1              |NOTFUNC__43   |     1|
+|62    |      NOT2              |NOTFUNC__42   |     1|
+|63    |      NOT3              |NOTFUNC__41   |     1|
+|64    |      NOT4              |NOTFUNC__40   |     1|
+|65    |    \ro_blocks[5].ro1   |ro_unit__11   |     5|
+|66    |      NAND0             |NANDFUNC__11  |     1|
+|67    |      NOT1              |NOTFUNC__47   |     1|
+|68    |      NOT2              |NOTFUNC__46   |     1|
+|69    |      NOT3              |NOTFUNC__45   |     1|
+|70    |      NOT4              |NOTFUNC__44   |     1|
+|71    |    \ro_blocks[5].ro2   |ro_unit__12   |     5|
+|72    |      NAND0             |NANDFUNC__12  |     1|
+|73    |      NOT1              |NOTFUNC__51   |     1|
+|74    |      NOT2              |NOTFUNC__50   |     1|
+|75    |      NOT3              |NOTFUNC__49   |     1|
+|76    |      NOT4              |NOTFUNC__48   |     1|
+|77    |    \ro_blocks[6].ro1   |ro_unit__13   |     5|
+|78    |      NAND0             |NANDFUNC__13  |     1|
+|79    |      NOT1              |NOTFUNC__55   |     1|
+|80    |      NOT2              |NOTFUNC__54   |     1|
+|81    |      NOT3              |NOTFUNC__53   |     1|
+|82    |      NOT4              |NOTFUNC__52   |     1|
+|83    |    \ro_blocks[6].ro2   |ro_unit__14   |     5|
+|84    |      NAND0             |NANDFUNC__14  |     1|
+|85    |      NOT1              |NOTFUNC__59   |     1|
+|86    |      NOT2              |NOTFUNC__58   |     1|
+|87    |      NOT3              |NOTFUNC__57   |     1|
+|88    |      NOT4              |NOTFUNC__56   |     1|
+|89    |    \ro_blocks[7].ro1   |ro_unit__15   |     5|
+|90    |      NAND0             |NANDFUNC__15  |     1|
+|91    |      NOT1              |NOTFUNC__63   |     1|
+|92    |      NOT2              |NOTFUNC__62   |     1|
+|93    |      NOT3              |NOTFUNC__61   |     1|
+|94    |      NOT4              |NOTFUNC__60   |     1|
+|95    |    \ro_blocks[7].ro2   |ro_unit__16   |     5|
+|96    |      NAND0             |NANDFUNC__16  |     1|
+|97    |      NOT1              |NOTFUNC__67   |     1|
+|98    |      NOT2              |NOTFUNC__66   |     1|
+|99    |      NOT3              |NOTFUNC__65   |     1|
+|100   |      NOT4              |NOTFUNC__64   |     1|
+|101   |    \ro_blocks[8].ro1   |ro_unit__17   |     5|
+|102   |      NAND0             |NANDFUNC__17  |     1|
+|103   |      NOT1              |NOTFUNC__71   |     1|
+|104   |      NOT2              |NOTFUNC__70   |     1|
+|105   |      NOT3              |NOTFUNC__69   |     1|
+|106   |      NOT4              |NOTFUNC__68   |     1|
+|107   |    \ro_blocks[8].ro2   |ro_unit__18   |     5|
+|108   |      NAND0             |NANDFUNC__18  |     1|
+|109   |      NOT1              |NOTFUNC__75   |     1|
+|110   |      NOT2              |NOTFUNC__74   |     1|
+|111   |      NOT3              |NOTFUNC__73   |     1|
+|112   |      NOT4              |NOTFUNC__72   |     1|
+|113   |    \ro_blocks[9].ro1   |ro_unit__19   |     5|
+|114   |      NAND0             |NANDFUNC__19  |     1|
+|115   |      NOT1              |NOTFUNC__79   |     1|
+|116   |      NOT2              |NOTFUNC__78   |     1|
+|117   |      NOT3              |NOTFUNC__77   |     1|
+|118   |      NOT4              |NOTFUNC__76   |     1|
+|119   |    \ro_blocks[9].ro2   |ro_unit__20   |     5|
+|120   |      NAND0             |NANDFUNC__20  |     1|
+|121   |      NOT1              |NOTFUNC__83   |     1|
+|122   |      NOT2              |NOTFUNC__82   |     1|
+|123   |      NOT3              |NOTFUNC__81   |     1|
+|124   |      NOT4              |NOTFUNC__80   |     1|
+|125   |    \ro_blocks[10].ro1  |ro_unit__21   |     5|
+|126   |      NAND0             |NANDFUNC__21  |     1|
+|127   |      NOT1              |NOTFUNC__87   |     1|
+|128   |      NOT2              |NOTFUNC__86   |     1|
+|129   |      NOT3              |NOTFUNC__85   |     1|
+|130   |      NOT4              |NOTFUNC__84   |     1|
+|131   |    \ro_blocks[10].ro2  |ro_unit__22   |     5|
+|132   |      NAND0             |NANDFUNC__22  |     1|
+|133   |      NOT1              |NOTFUNC__91   |     1|
+|134   |      NOT2              |NOTFUNC__90   |     1|
+|135   |      NOT3              |NOTFUNC__89   |     1|
+|136   |      NOT4              |NOTFUNC__88   |     1|
+|137   |    \ro_blocks[11].ro1  |ro_unit__23   |     5|
+|138   |      NAND0             |NANDFUNC__23  |     1|
+|139   |      NOT1              |NOTFUNC__95   |     1|
+|140   |      NOT2              |NOTFUNC__94   |     1|
+|141   |      NOT3              |NOTFUNC__93   |     1|
+|142   |      NOT4              |NOTFUNC__92   |     1|
+|143   |    \ro_blocks[11].ro2  |ro_unit__24   |     5|
+|144   |      NAND0             |NANDFUNC__24  |     1|
+|145   |      NOT1              |NOTFUNC__99   |     1|
+|146   |      NOT2              |NOTFUNC__98   |     1|
+|147   |      NOT3              |NOTFUNC__97   |     1|
+|148   |      NOT4              |NOTFUNC__96   |     1|
+|149   |    \ro_blocks[12].ro1  |ro_unit__25   |     5|
+|150   |      NAND0             |NANDFUNC__25  |     1|
+|151   |      NOT1              |NOTFUNC__103  |     1|
+|152   |      NOT2              |NOTFUNC__102  |     1|
+|153   |      NOT3              |NOTFUNC__101  |     1|
+|154   |      NOT4              |NOTFUNC__100  |     1|
+|155   |    \ro_blocks[12].ro2  |ro_unit__26   |     5|
+|156   |      NAND0             |NANDFUNC__26  |     1|
+|157   |      NOT1              |NOTFUNC__107  |     1|
+|158   |      NOT2              |NOTFUNC__106  |     1|
+|159   |      NOT3              |NOTFUNC__105  |     1|
+|160   |      NOT4              |NOTFUNC__104  |     1|
+|161   |    \ro_blocks[13].ro1  |ro_unit__27   |     5|
+|162   |      NAND0             |NANDFUNC__27  |     1|
+|163   |      NOT1              |NOTFUNC__111  |     1|
+|164   |      NOT2              |NOTFUNC__110  |     1|
+|165   |      NOT3              |NOTFUNC__109  |     1|
+|166   |      NOT4              |NOTFUNC__108  |     1|
+|167   |    \ro_blocks[13].ro2  |ro_unit__28   |     5|
+|168   |      NAND0             |NANDFUNC__28  |     1|
+|169   |      NOT1              |NOTFUNC__115  |     1|
+|170   |      NOT2              |NOTFUNC__114  |     1|
+|171   |      NOT3              |NOTFUNC__113  |     1|
+|172   |      NOT4              |NOTFUNC__112  |     1|
+|173   |    \ro_blocks[14].ro1  |ro_unit__29   |     5|
+|174   |      NAND0             |NANDFUNC__29  |     1|
+|175   |      NOT1              |NOTFUNC__119  |     1|
+|176   |      NOT2              |NOTFUNC__118  |     1|
+|177   |      NOT3              |NOTFUNC__117  |     1|
+|178   |      NOT4              |NOTFUNC__116  |     1|
+|179   |    \ro_blocks[14].ro2  |ro_unit__30   |     5|
+|180   |      NAND0             |NANDFUNC__30  |     1|
+|181   |      NOT1              |NOTFUNC__123  |     1|
+|182   |      NOT2              |NOTFUNC__122  |     1|
+|183   |      NOT3              |NOTFUNC__121  |     1|
+|184   |      NOT4              |NOTFUNC__120  |     1|
+|185   |    \ro_blocks[15].ro1  |ro_unit__31   |     5|
+|186   |      NAND0             |NANDFUNC__31  |     1|
+|187   |      NOT1              |NOTFUNC__127  |     1|
+|188   |      NOT2              |NOTFUNC__126  |     1|
+|189   |      NOT3              |NOTFUNC__125  |     1|
+|190   |      NOT4              |NOTFUNC__124  |     1|
+|191   |    \ro_blocks[15].ro2  |ro_unit__32   |     5|
+|192   |      NAND0             |NANDFUNC__32  |     1|
+|193   |      NOT1              |NOTFUNC__131  |     1|
+|194   |      NOT2              |NOTFUNC__130  |     1|
+|195   |      NOT3              |NOTFUNC__129  |     1|
+|196   |      NOT4              |NOTFUNC__128  |     1|
+|197   |    \ro_blocks[16].ro1  |ro_unit__33   |     5|
+|198   |      NAND0             |NANDFUNC__33  |     1|
+|199   |      NOT1              |NOTFUNC__135  |     1|
+|200   |      NOT2              |NOTFUNC__134  |     1|
+|201   |      NOT3              |NOTFUNC__133  |     1|
+|202   |      NOT4              |NOTFUNC__132  |     1|
+|203   |    \ro_blocks[16].ro2  |ro_unit__34   |     5|
+|204   |      NAND0             |NANDFUNC__34  |     1|
+|205   |      NOT1              |NOTFUNC__139  |     1|
+|206   |      NOT2              |NOTFUNC__138  |     1|
+|207   |      NOT3              |NOTFUNC__137  |     1|
+|208   |      NOT4              |NOTFUNC__136  |     1|
+|209   |    \ro_blocks[17].ro1  |ro_unit__35   |     5|
+|210   |      NAND0             |NANDFUNC__35  |     1|
+|211   |      NOT1              |NOTFUNC__143  |     1|
+|212   |      NOT2              |NOTFUNC__142  |     1|
+|213   |      NOT3              |NOTFUNC__141  |     1|
+|214   |      NOT4              |NOTFUNC__140  |     1|
+|215   |    \ro_blocks[17].ro2  |ro_unit__36   |     5|
+|216   |      NAND0             |NANDFUNC__36  |     1|
+|217   |      NOT1              |NOTFUNC__147  |     1|
+|218   |      NOT2              |NOTFUNC__146  |     1|
+|219   |      NOT3              |NOTFUNC__145  |     1|
+|220   |      NOT4              |NOTFUNC__144  |     1|
+|221   |    \ro_blocks[18].ro1  |ro_unit__37   |     5|
+|222   |      NAND0             |NANDFUNC__37  |     1|
+|223   |      NOT1              |NOTFUNC__151  |     1|
+|224   |      NOT2              |NOTFUNC__150  |     1|
+|225   |      NOT3              |NOTFUNC__149  |     1|
+|226   |      NOT4              |NOTFUNC__148  |     1|
+|227   |    \ro_blocks[18].ro2  |ro_unit__38   |     5|
+|228   |      NAND0             |NANDFUNC__38  |     1|
+|229   |      NOT1              |NOTFUNC__155  |     1|
+|230   |      NOT2              |NOTFUNC__154  |     1|
+|231   |      NOT3              |NOTFUNC__153  |     1|
+|232   |      NOT4              |NOTFUNC__152  |     1|
+|233   |    \ro_blocks[19].ro1  |ro_unit__39   |     5|
+|234   |      NAND0             |NANDFUNC__39  |     1|
+|235   |      NOT1              |NOTFUNC__159  |     1|
+|236   |      NOT2              |NOTFUNC__158  |     1|
+|237   |      NOT3              |NOTFUNC__157  |     1|
+|238   |      NOT4              |NOTFUNC__156  |     1|
+|239   |    \ro_blocks[19].ro2  |ro_unit__40   |     5|
+|240   |      NAND0             |NANDFUNC__40  |     1|
+|241   |      NOT1              |NOTFUNC__163  |     1|
+|242   |      NOT2              |NOTFUNC__162  |     1|
+|243   |      NOT3              |NOTFUNC__161  |     1|
+|244   |      NOT4              |NOTFUNC__160  |     1|
+|245   |    \ro_blocks[20].ro1  |ro_unit__41   |     5|
+|246   |      NAND0             |NANDFUNC__41  |     1|
+|247   |      NOT1              |NOTFUNC__167  |     1|
+|248   |      NOT2              |NOTFUNC__166  |     1|
+|249   |      NOT3              |NOTFUNC__165  |     1|
+|250   |      NOT4              |NOTFUNC__164  |     1|
+|251   |    \ro_blocks[20].ro2  |ro_unit__42   |     5|
+|252   |      NAND0             |NANDFUNC__42  |     1|
+|253   |      NOT1              |NOTFUNC__171  |     1|
+|254   |      NOT2              |NOTFUNC__170  |     1|
+|255   |      NOT3              |NOTFUNC__169  |     1|
+|256   |      NOT4              |NOTFUNC__168  |     1|
+|257   |    \ro_blocks[21].ro1  |ro_unit__43   |     5|
+|258   |      NAND0             |NANDFUNC__43  |     1|
+|259   |      NOT1              |NOTFUNC__175  |     1|
+|260   |      NOT2              |NOTFUNC__174  |     1|
+|261   |      NOT3              |NOTFUNC__173  |     1|
+|262   |      NOT4              |NOTFUNC__172  |     1|
+|263   |    \ro_blocks[21].ro2  |ro_unit__44   |     5|
+|264   |      NAND0             |NANDFUNC__44  |     1|
+|265   |      NOT1              |NOTFUNC__179  |     1|
+|266   |      NOT2              |NOTFUNC__178  |     1|
+|267   |      NOT3              |NOTFUNC__177  |     1|
+|268   |      NOT4              |NOTFUNC__176  |     1|
+|269   |    \ro_blocks[22].ro1  |ro_unit__45   |     5|
+|270   |      NAND0             |NANDFUNC__45  |     1|
+|271   |      NOT1              |NOTFUNC__183  |     1|
+|272   |      NOT2              |NOTFUNC__182  |     1|
+|273   |      NOT3              |NOTFUNC__181  |     1|
+|274   |      NOT4              |NOTFUNC__180  |     1|
+|275   |    \ro_blocks[22].ro2  |ro_unit__46   |     5|
+|276   |      NAND0             |NANDFUNC__46  |     1|
+|277   |      NOT1              |NOTFUNC__187  |     1|
+|278   |      NOT2              |NOTFUNC__186  |     1|
+|279   |      NOT3              |NOTFUNC__185  |     1|
+|280   |      NOT4              |NOTFUNC__184  |     1|
+|281   |    \ro_blocks[23].ro1  |ro_unit__47   |     5|
+|282   |      NAND0             |NANDFUNC__47  |     1|
+|283   |      NOT1              |NOTFUNC__191  |     1|
+|284   |      NOT2              |NOTFUNC__190  |     1|
+|285   |      NOT3              |NOTFUNC__189  |     1|
+|286   |      NOT4              |NOTFUNC__188  |     1|
+|287   |    \ro_blocks[23].ro2  |ro_unit__48   |     5|
+|288   |      NAND0             |NANDFUNC__48  |     1|
+|289   |      NOT1              |NOTFUNC__195  |     1|
+|290   |      NOT2              |NOTFUNC__194  |     1|
+|291   |      NOT3              |NOTFUNC__193  |     1|
+|292   |      NOT4              |NOTFUNC__192  |     1|
+|293   |    \ro_blocks[24].ro1  |ro_unit__49   |     5|
+|294   |      NAND0             |NANDFUNC__49  |     1|
+|295   |      NOT1              |NOTFUNC__199  |     1|
+|296   |      NOT2              |NOTFUNC__198  |     1|
+|297   |      NOT3              |NOTFUNC__197  |     1|
+|298   |      NOT4              |NOTFUNC__196  |     1|
+|299   |    \ro_blocks[24].ro2  |ro_unit__50   |     5|
+|300   |      NAND0             |NANDFUNC__50  |     1|
+|301   |      NOT1              |NOTFUNC__203  |     1|
+|302   |      NOT2              |NOTFUNC__202  |     1|
+|303   |      NOT3              |NOTFUNC__201  |     1|
+|304   |      NOT4              |NOTFUNC__200  |     1|
+|305   |    \ro_blocks[25].ro1  |ro_unit__51   |     5|
+|306   |      NAND0             |NANDFUNC__51  |     1|
+|307   |      NOT1              |NOTFUNC__207  |     1|
+|308   |      NOT2              |NOTFUNC__206  |     1|
+|309   |      NOT3              |NOTFUNC__205  |     1|
+|310   |      NOT4              |NOTFUNC__204  |     1|
+|311   |    \ro_blocks[25].ro2  |ro_unit__52   |     5|
+|312   |      NAND0             |NANDFUNC__52  |     1|
+|313   |      NOT1              |NOTFUNC__211  |     1|
+|314   |      NOT2              |NOTFUNC__210  |     1|
+|315   |      NOT3              |NOTFUNC__209  |     1|
+|316   |      NOT4              |NOTFUNC__208  |     1|
+|317   |    \ro_blocks[26].ro1  |ro_unit__53   |     5|
+|318   |      NAND0             |NANDFUNC__53  |     1|
+|319   |      NOT1              |NOTFUNC__215  |     1|
+|320   |      NOT2              |NOTFUNC__214  |     1|
+|321   |      NOT3              |NOTFUNC__213  |     1|
+|322   |      NOT4              |NOTFUNC__212  |     1|
+|323   |    \ro_blocks[26].ro2  |ro_unit__54   |     5|
+|324   |      NAND0             |NANDFUNC__54  |     1|
+|325   |      NOT1              |NOTFUNC__219  |     1|
+|326   |      NOT2              |NOTFUNC__218  |     1|
+|327   |      NOT3              |NOTFUNC__217  |     1|
+|328   |      NOT4              |NOTFUNC__216  |     1|
+|329   |    \ro_blocks[27].ro1  |ro_unit__55   |     5|
+|330   |      NAND0             |NANDFUNC__55  |     1|
+|331   |      NOT1              |NOTFUNC__223  |     1|
+|332   |      NOT2              |NOTFUNC__222  |     1|
+|333   |      NOT3              |NOTFUNC__221  |     1|
+|334   |      NOT4              |NOTFUNC__220  |     1|
+|335   |    \ro_blocks[27].ro2  |ro_unit__56   |     5|
+|336   |      NAND0             |NANDFUNC__56  |     1|
+|337   |      NOT1              |NOTFUNC__227  |     1|
+|338   |      NOT2              |NOTFUNC__226  |     1|
+|339   |      NOT3              |NOTFUNC__225  |     1|
+|340   |      NOT4              |NOTFUNC__224  |     1|
+|341   |    \ro_blocks[28].ro1  |ro_unit__57   |     5|
+|342   |      NAND0             |NANDFUNC__57  |     1|
+|343   |      NOT1              |NOTFUNC__231  |     1|
+|344   |      NOT2              |NOTFUNC__230  |     1|
+|345   |      NOT3              |NOTFUNC__229  |     1|
+|346   |      NOT4              |NOTFUNC__228  |     1|
+|347   |    \ro_blocks[28].ro2  |ro_unit__58   |     5|
+|348   |      NAND0             |NANDFUNC__58  |     1|
+|349   |      NOT1              |NOTFUNC__235  |     1|
+|350   |      NOT2              |NOTFUNC__234  |     1|
+|351   |      NOT3              |NOTFUNC__233  |     1|
+|352   |      NOT4              |NOTFUNC__232  |     1|
+|353   |    \ro_blocks[29].ro1  |ro_unit__59   |     5|
+|354   |      NAND0             |NANDFUNC__59  |     1|
+|355   |      NOT1              |NOTFUNC__239  |     1|
+|356   |      NOT2              |NOTFUNC__238  |     1|
+|357   |      NOT3              |NOTFUNC__237  |     1|
+|358   |      NOT4              |NOTFUNC__236  |     1|
+|359   |    \ro_blocks[29].ro2  |ro_unit__60   |     5|
+|360   |      NAND0             |NANDFUNC__60  |     1|
+|361   |      NOT1              |NOTFUNC__243  |     1|
+|362   |      NOT2              |NOTFUNC__242  |     1|
+|363   |      NOT3              |NOTFUNC__241  |     1|
+|364   |      NOT4              |NOTFUNC__240  |     1|
+|365   |    \ro_blocks[30].ro1  |ro_unit__61   |     5|
+|366   |      NAND0             |NANDFUNC__61  |     1|
+|367   |      NOT1              |NOTFUNC__247  |     1|
+|368   |      NOT2              |NOTFUNC__246  |     1|
+|369   |      NOT3              |NOTFUNC__245  |     1|
+|370   |      NOT4              |NOTFUNC__244  |     1|
+|371   |    \ro_blocks[30].ro2  |ro_unit__62   |     5|
+|372   |      NAND0             |NANDFUNC__62  |     1|
+|373   |      NOT1              |NOTFUNC__251  |     1|
+|374   |      NOT2              |NOTFUNC__250  |     1|
+|375   |      NOT3              |NOTFUNC__249  |     1|
+|376   |      NOT4              |NOTFUNC__248  |     1|
+|377   |    \ro_blocks[31].ro1  |ro_unit__63   |     5|
+|378   |      NAND0             |NANDFUNC__63  |     1|
+|379   |      NOT1              |NOTFUNC__255  |     1|
+|380   |      NOT2              |NOTFUNC__254  |     1|
+|381   |      NOT3              |NOTFUNC__253  |     1|
+|382   |      NOT4              |NOTFUNC__252  |     1|
+|383   |    \ro_blocks[31].ro2  |ro_unit__64   |     5|
+|384   |      NAND0             |NANDFUNC__64  |     1|
+|385   |      NOT1              |NOTFUNC__259  |     1|
+|386   |      NOT2              |NOTFUNC__258  |     1|
+|387   |      NOT3              |NOTFUNC__257  |     1|
+|388   |      NOT4              |NOTFUNC__256  |     1|
+|389   |    \ro_blocks[32].ro1  |ro_unit__65   |     5|
+|390   |      NAND0             |NANDFUNC__65  |     1|
+|391   |      NOT1              |NOTFUNC__263  |     1|
+|392   |      NOT2              |NOTFUNC__262  |     1|
+|393   |      NOT3              |NOTFUNC__261  |     1|
+|394   |      NOT4              |NOTFUNC__260  |     1|
+|395   |    \ro_blocks[32].ro2  |ro_unit__66   |     5|
+|396   |      NAND0             |NANDFUNC__66  |     1|
+|397   |      NOT1              |NOTFUNC__267  |     1|
+|398   |      NOT2              |NOTFUNC__266  |     1|
+|399   |      NOT3              |NOTFUNC__265  |     1|
+|400   |      NOT4              |NOTFUNC__264  |     1|
+|401   |    \ro_blocks[33].ro1  |ro_unit__67   |     5|
+|402   |      NAND0             |NANDFUNC__67  |     1|
+|403   |      NOT1              |NOTFUNC__271  |     1|
+|404   |      NOT2              |NOTFUNC__270  |     1|
+|405   |      NOT3              |NOTFUNC__269  |     1|
+|406   |      NOT4              |NOTFUNC__268  |     1|
+|407   |    \ro_blocks[33].ro2  |ro_unit__68   |     5|
+|408   |      NAND0             |NANDFUNC__68  |     1|
+|409   |      NOT1              |NOTFUNC__275  |     1|
+|410   |      NOT2              |NOTFUNC__274  |     1|
+|411   |      NOT3              |NOTFUNC__273  |     1|
+|412   |      NOT4              |NOTFUNC__272  |     1|
+|413   |    \ro_blocks[34].ro1  |ro_unit__69   |     5|
+|414   |      NAND0             |NANDFUNC__69  |     1|
+|415   |      NOT1              |NOTFUNC__279  |     1|
+|416   |      NOT2              |NOTFUNC__278  |     1|
+|417   |      NOT3              |NOTFUNC__277  |     1|
+|418   |      NOT4              |NOTFUNC__276  |     1|
+|419   |    \ro_blocks[34].ro2  |ro_unit__70   |     5|
+|420   |      NAND0             |NANDFUNC__70  |     1|
+|421   |      NOT1              |NOTFUNC__283  |     1|
+|422   |      NOT2              |NOTFUNC__282  |     1|
+|423   |      NOT3              |NOTFUNC__281  |     1|
+|424   |      NOT4              |NOTFUNC__280  |     1|
+|425   |    \ro_blocks[35].ro1  |ro_unit__71   |     5|
+|426   |      NAND0             |NANDFUNC__71  |     1|
+|427   |      NOT1              |NOTFUNC__287  |     1|
+|428   |      NOT2              |NOTFUNC__286  |     1|
+|429   |      NOT3              |NOTFUNC__285  |     1|
+|430   |      NOT4              |NOTFUNC__284  |     1|
+|431   |    \ro_blocks[35].ro2  |ro_unit__72   |     5|
+|432   |      NAND0             |NANDFUNC__72  |     1|
+|433   |      NOT1              |NOTFUNC__291  |     1|
+|434   |      NOT2              |NOTFUNC__290  |     1|
+|435   |      NOT3              |NOTFUNC__289  |     1|
+|436   |      NOT4              |NOTFUNC__288  |     1|
+|437   |    \ro_blocks[36].ro1  |ro_unit__73   |     5|
+|438   |      NAND0             |NANDFUNC__73  |     1|
+|439   |      NOT1              |NOTFUNC__295  |     1|
+|440   |      NOT2              |NOTFUNC__294  |     1|
+|441   |      NOT3              |NOTFUNC__293  |     1|
+|442   |      NOT4              |NOTFUNC__292  |     1|
+|443   |    \ro_blocks[36].ro2  |ro_unit__74   |     5|
+|444   |      NAND0             |NANDFUNC__74  |     1|
+|445   |      NOT1              |NOTFUNC__299  |     1|
+|446   |      NOT2              |NOTFUNC__298  |     1|
+|447   |      NOT3              |NOTFUNC__297  |     1|
+|448   |      NOT4              |NOTFUNC__296  |     1|
+|449   |    \ro_blocks[37].ro1  |ro_unit__75   |     5|
+|450   |      NAND0             |NANDFUNC__75  |     1|
+|451   |      NOT1              |NOTFUNC__303  |     1|
+|452   |      NOT2              |NOTFUNC__302  |     1|
+|453   |      NOT3              |NOTFUNC__301  |     1|
+|454   |      NOT4              |NOTFUNC__300  |     1|
+|455   |    \ro_blocks[37].ro2  |ro_unit__76   |     5|
+|456   |      NAND0             |NANDFUNC__76  |     1|
+|457   |      NOT1              |NOTFUNC__307  |     1|
+|458   |      NOT2              |NOTFUNC__306  |     1|
+|459   |      NOT3              |NOTFUNC__305  |     1|
+|460   |      NOT4              |NOTFUNC__304  |     1|
+|461   |    \ro_blocks[38].ro1  |ro_unit__77   |     5|
+|462   |      NAND0             |NANDFUNC__77  |     1|
+|463   |      NOT1              |NOTFUNC__311  |     1|
+|464   |      NOT2              |NOTFUNC__310  |     1|
+|465   |      NOT3              |NOTFUNC__309  |     1|
+|466   |      NOT4              |NOTFUNC__308  |     1|
+|467   |    \ro_blocks[38].ro2  |ro_unit__78   |     5|
+|468   |      NAND0             |NANDFUNC__78  |     1|
+|469   |      NOT1              |NOTFUNC__315  |     1|
+|470   |      NOT2              |NOTFUNC__314  |     1|
+|471   |      NOT3              |NOTFUNC__313  |     1|
+|472   |      NOT4              |NOTFUNC__312  |     1|
+|473   |    \ro_blocks[39].ro1  |ro_unit__79   |     5|
+|474   |      NAND0             |NANDFUNC__79  |     1|
+|475   |      NOT1              |NOTFUNC__319  |     1|
+|476   |      NOT2              |NOTFUNC__318  |     1|
+|477   |      NOT3              |NOTFUNC__317  |     1|
+|478   |      NOT4              |NOTFUNC__316  |     1|
+|479   |    \ro_blocks[39].ro2  |ro_unit__80   |     5|
+|480   |      NAND0             |NANDFUNC__80  |     1|
+|481   |      NOT1              |NOTFUNC__323  |     1|
+|482   |      NOT2              |NOTFUNC__322  |     1|
+|483   |      NOT3              |NOTFUNC__321  |     1|
+|484   |      NOT4              |NOTFUNC__320  |     1|
+|485   |    \ro_blocks[40].ro1  |ro_unit__81   |     5|
+|486   |      NAND0             |NANDFUNC__81  |     1|
+|487   |      NOT1              |NOTFUNC__327  |     1|
+|488   |      NOT2              |NOTFUNC__326  |     1|
+|489   |      NOT3              |NOTFUNC__325  |     1|
+|490   |      NOT4              |NOTFUNC__324  |     1|
+|491   |    \ro_blocks[40].ro2  |ro_unit__82   |     5|
+|492   |      NAND0             |NANDFUNC__82  |     1|
+|493   |      NOT1              |NOTFUNC__331  |     1|
+|494   |      NOT2              |NOTFUNC__330  |     1|
+|495   |      NOT3              |NOTFUNC__329  |     1|
+|496   |      NOT4              |NOTFUNC__328  |     1|
+|497   |    \ro_blocks[41].ro1  |ro_unit__83   |     5|
+|498   |      NAND0             |NANDFUNC__83  |     1|
+|499   |      NOT1              |NOTFUNC__335  |     1|
+|500   |      NOT2              |NOTFUNC__334  |     1|
+|501   |      NOT3              |NOTFUNC__333  |     1|
+|502   |      NOT4              |NOTFUNC__332  |     1|
+|503   |    \ro_blocks[41].ro2  |ro_unit__84   |     5|
+|504   |      NAND0             |NANDFUNC__84  |     1|
+|505   |      NOT1              |NOTFUNC__339  |     1|
+|506   |      NOT2              |NOTFUNC__338  |     1|
+|507   |      NOT3              |NOTFUNC__337  |     1|
+|508   |      NOT4              |NOTFUNC__336  |     1|
+|509   |    \ro_blocks[42].ro1  |ro_unit__85   |     5|
+|510   |      NAND0             |NANDFUNC__85  |     1|
+|511   |      NOT1              |NOTFUNC__343  |     1|
+|512   |      NOT2              |NOTFUNC__342  |     1|
+|513   |      NOT3              |NOTFUNC__341  |     1|
+|514   |      NOT4              |NOTFUNC__340  |     1|
+|515   |    \ro_blocks[42].ro2  |ro_unit__86   |     5|
+|516   |      NAND0             |NANDFUNC__86  |     1|
+|517   |      NOT1              |NOTFUNC__347  |     1|
+|518   |      NOT2              |NOTFUNC__346  |     1|
+|519   |      NOT3              |NOTFUNC__345  |     1|
+|520   |      NOT4              |NOTFUNC__344  |     1|
+|521   |    \ro_blocks[43].ro1  |ro_unit__87   |     5|
+|522   |      NAND0             |NANDFUNC__87  |     1|
+|523   |      NOT1              |NOTFUNC__351  |     1|
+|524   |      NOT2              |NOTFUNC__350  |     1|
+|525   |      NOT3              |NOTFUNC__349  |     1|
+|526   |      NOT4              |NOTFUNC__348  |     1|
+|527   |    \ro_blocks[43].ro2  |ro_unit__88   |     5|
+|528   |      NAND0             |NANDFUNC__88  |     1|
+|529   |      NOT1              |NOTFUNC__355  |     1|
+|530   |      NOT2              |NOTFUNC__354  |     1|
+|531   |      NOT3              |NOTFUNC__353  |     1|
+|532   |      NOT4              |NOTFUNC__352  |     1|
+|533   |    \ro_blocks[44].ro1  |ro_unit__89   |     5|
+|534   |      NAND0             |NANDFUNC__89  |     1|
+|535   |      NOT1              |NOTFUNC__359  |     1|
+|536   |      NOT2              |NOTFUNC__358  |     1|
+|537   |      NOT3              |NOTFUNC__357  |     1|
+|538   |      NOT4              |NOTFUNC__356  |     1|
+|539   |    \ro_blocks[44].ro2  |ro_unit__90   |     5|
+|540   |      NAND0             |NANDFUNC__90  |     1|
+|541   |      NOT1              |NOTFUNC__363  |     1|
+|542   |      NOT2              |NOTFUNC__362  |     1|
+|543   |      NOT3              |NOTFUNC__361  |     1|
+|544   |      NOT4              |NOTFUNC__360  |     1|
+|545   |    \ro_blocks[45].ro1  |ro_unit__91   |     5|
+|546   |      NAND0             |NANDFUNC__91  |     1|
+|547   |      NOT1              |NOTFUNC__367  |     1|
+|548   |      NOT2              |NOTFUNC__366  |     1|
+|549   |      NOT3              |NOTFUNC__365  |     1|
+|550   |      NOT4              |NOTFUNC__364  |     1|
+|551   |    \ro_blocks[45].ro2  |ro_unit__92   |     5|
+|552   |      NAND0             |NANDFUNC__92  |     1|
+|553   |      NOT1              |NOTFUNC__371  |     1|
+|554   |      NOT2              |NOTFUNC__370  |     1|
+|555   |      NOT3              |NOTFUNC__369  |     1|
+|556   |      NOT4              |NOTFUNC__368  |     1|
+|557   |    \ro_blocks[46].ro1  |ro_unit__93   |     5|
+|558   |      NAND0             |NANDFUNC__93  |     1|
+|559   |      NOT1              |NOTFUNC__375  |     1|
+|560   |      NOT2              |NOTFUNC__374  |     1|
+|561   |      NOT3              |NOTFUNC__373  |     1|
+|562   |      NOT4              |NOTFUNC__372  |     1|
+|563   |    \ro_blocks[46].ro2  |ro_unit__94   |     5|
+|564   |      NAND0             |NANDFUNC__94  |     1|
+|565   |      NOT1              |NOTFUNC__379  |     1|
+|566   |      NOT2              |NOTFUNC__378  |     1|
+|567   |      NOT3              |NOTFUNC__377  |     1|
+|568   |      NOT4              |NOTFUNC__376  |     1|
+|569   |    \ro_blocks[47].ro1  |ro_unit__95   |     5|
+|570   |      NAND0             |NANDFUNC__95  |     1|
+|571   |      NOT1              |NOTFUNC__383  |     1|
+|572   |      NOT2              |NOTFUNC__382  |     1|
+|573   |      NOT3              |NOTFUNC__381  |     1|
+|574   |      NOT4              |NOTFUNC__380  |     1|
+|575   |    \ro_blocks[47].ro2  |ro_unit__96   |     5|
+|576   |      NAND0             |NANDFUNC__96  |     1|
+|577   |      NOT1              |NOTFUNC__387  |     1|
+|578   |      NOT2              |NOTFUNC__386  |     1|
+|579   |      NOT3              |NOTFUNC__385  |     1|
+|580   |      NOT4              |NOTFUNC__384  |     1|
+|581   |    \ro_blocks[48].ro1  |ro_unit__97   |     5|
+|582   |      NAND0             |NANDFUNC__97  |     1|
+|583   |      NOT1              |NOTFUNC__391  |     1|
+|584   |      NOT2              |NOTFUNC__390  |     1|
+|585   |      NOT3              |NOTFUNC__389  |     1|
+|586   |      NOT4              |NOTFUNC__388  |     1|
+|587   |    \ro_blocks[48].ro2  |ro_unit__98   |     5|
+|588   |      NAND0             |NANDFUNC__98  |     1|
+|589   |      NOT1              |NOTFUNC__395  |     1|
+|590   |      NOT2              |NOTFUNC__394  |     1|
+|591   |      NOT3              |NOTFUNC__393  |     1|
+|592   |      NOT4              |NOTFUNC__392  |     1|
+|593   |    \ro_blocks[49].ro1  |ro_unit__99   |     5|
+|594   |      NAND0             |NANDFUNC__99  |     1|
+|595   |      NOT1              |NOTFUNC__399  |     1|
+|596   |      NOT2              |NOTFUNC__398  |     1|
+|597   |      NOT3              |NOTFUNC__397  |     1|
+|598   |      NOT4              |NOTFUNC__396  |     1|
+|599   |    \ro_blocks[49].ro2  |ro_unit__100  |     5|
+|600   |      NAND0             |NANDFUNC__100 |     1|
+|601   |      NOT1              |NOTFUNC__403  |     1|
+|602   |      NOT2              |NOTFUNC__402  |     1|
+|603   |      NOT3              |NOTFUNC__401  |     1|
+|604   |      NOT4              |NOTFUNC__400  |     1|
+|605   |    \ro_blocks[50].ro1  |ro_unit__101  |     5|
+|606   |      NAND0             |NANDFUNC__101 |     1|
+|607   |      NOT1              |NOTFUNC__407  |     1|
+|608   |      NOT2              |NOTFUNC__406  |     1|
+|609   |      NOT3              |NOTFUNC__405  |     1|
+|610   |      NOT4              |NOTFUNC__404  |     1|
+|611   |    \ro_blocks[50].ro2  |ro_unit__102  |     5|
+|612   |      NAND0             |NANDFUNC__102 |     1|
+|613   |      NOT1              |NOTFUNC__411  |     1|
+|614   |      NOT2              |NOTFUNC__410  |     1|
+|615   |      NOT3              |NOTFUNC__409  |     1|
+|616   |      NOT4              |NOTFUNC__408  |     1|
+|617   |    \ro_blocks[51].ro1  |ro_unit__103  |     5|
+|618   |      NAND0             |NANDFUNC__103 |     1|
+|619   |      NOT1              |NOTFUNC__415  |     1|
+|620   |      NOT2              |NOTFUNC__414  |     1|
+|621   |      NOT3              |NOTFUNC__413  |     1|
+|622   |      NOT4              |NOTFUNC__412  |     1|
+|623   |    \ro_blocks[51].ro2  |ro_unit__104  |     5|
+|624   |      NAND0             |NANDFUNC__104 |     1|
+|625   |      NOT1              |NOTFUNC__419  |     1|
+|626   |      NOT2              |NOTFUNC__418  |     1|
+|627   |      NOT3              |NOTFUNC__417  |     1|
+|628   |      NOT4              |NOTFUNC__416  |     1|
+|629   |    \ro_blocks[52].ro1  |ro_unit__105  |     5|
+|630   |      NAND0             |NANDFUNC__105 |     1|
+|631   |      NOT1              |NOTFUNC__423  |     1|
+|632   |      NOT2              |NOTFUNC__422  |     1|
+|633   |      NOT3              |NOTFUNC__421  |     1|
+|634   |      NOT4              |NOTFUNC__420  |     1|
+|635   |    \ro_blocks[52].ro2  |ro_unit__106  |     5|
+|636   |      NAND0             |NANDFUNC__106 |     1|
+|637   |      NOT1              |NOTFUNC__427  |     1|
+|638   |      NOT2              |NOTFUNC__426  |     1|
+|639   |      NOT3              |NOTFUNC__425  |     1|
+|640   |      NOT4              |NOTFUNC__424  |     1|
+|641   |    \ro_blocks[53].ro1  |ro_unit__107  |     5|
+|642   |      NAND0             |NANDFUNC__107 |     1|
+|643   |      NOT1              |NOTFUNC__431  |     1|
+|644   |      NOT2              |NOTFUNC__430  |     1|
+|645   |      NOT3              |NOTFUNC__429  |     1|
+|646   |      NOT4              |NOTFUNC__428  |     1|
+|647   |    \ro_blocks[53].ro2  |ro_unit__108  |     5|
+|648   |      NAND0             |NANDFUNC__108 |     1|
+|649   |      NOT1              |NOTFUNC__435  |     1|
+|650   |      NOT2              |NOTFUNC__434  |     1|
+|651   |      NOT3              |NOTFUNC__433  |     1|
+|652   |      NOT4              |NOTFUNC__432  |     1|
+|653   |    \ro_blocks[54].ro1  |ro_unit__109  |     5|
+|654   |      NAND0             |NANDFUNC__109 |     1|
+|655   |      NOT1              |NOTFUNC__439  |     1|
+|656   |      NOT2              |NOTFUNC__438  |     1|
+|657   |      NOT3              |NOTFUNC__437  |     1|
+|658   |      NOT4              |NOTFUNC__436  |     1|
+|659   |    \ro_blocks[54].ro2  |ro_unit__110  |     5|
+|660   |      NAND0             |NANDFUNC__110 |     1|
+|661   |      NOT1              |NOTFUNC__443  |     1|
+|662   |      NOT2              |NOTFUNC__442  |     1|
+|663   |      NOT3              |NOTFUNC__441  |     1|
+|664   |      NOT4              |NOTFUNC__440  |     1|
+|665   |    \ro_blocks[55].ro1  |ro_unit__111  |     5|
+|666   |      NAND0             |NANDFUNC__111 |     1|
+|667   |      NOT1              |NOTFUNC__447  |     1|
+|668   |      NOT2              |NOTFUNC__446  |     1|
+|669   |      NOT3              |NOTFUNC__445  |     1|
+|670   |      NOT4              |NOTFUNC__444  |     1|
+|671   |    \ro_blocks[55].ro2  |ro_unit__112  |     5|
+|672   |      NAND0             |NANDFUNC__112 |     1|
+|673   |      NOT1              |NOTFUNC__451  |     1|
+|674   |      NOT2              |NOTFUNC__450  |     1|
+|675   |      NOT3              |NOTFUNC__449  |     1|
+|676   |      NOT4              |NOTFUNC__448  |     1|
+|677   |    \ro_blocks[56].ro1  |ro_unit__113  |     5|
+|678   |      NAND0             |NANDFUNC__113 |     1|
+|679   |      NOT1              |NOTFUNC__455  |     1|
+|680   |      NOT2              |NOTFUNC__454  |     1|
+|681   |      NOT3              |NOTFUNC__453  |     1|
+|682   |      NOT4              |NOTFUNC__452  |     1|
+|683   |    \ro_blocks[56].ro2  |ro_unit__114  |     5|
+|684   |      NAND0             |NANDFUNC__114 |     1|
+|685   |      NOT1              |NOTFUNC__459  |     1|
+|686   |      NOT2              |NOTFUNC__458  |     1|
+|687   |      NOT3              |NOTFUNC__457  |     1|
+|688   |      NOT4              |NOTFUNC__456  |     1|
+|689   |    \ro_blocks[57].ro1  |ro_unit__115  |     5|
+|690   |      NAND0             |NANDFUNC__115 |     1|
+|691   |      NOT1              |NOTFUNC__463  |     1|
+|692   |      NOT2              |NOTFUNC__462  |     1|
+|693   |      NOT3              |NOTFUNC__461  |     1|
+|694   |      NOT4              |NOTFUNC__460  |     1|
+|695   |    \ro_blocks[57].ro2  |ro_unit__116  |     5|
+|696   |      NAND0             |NANDFUNC__116 |     1|
+|697   |      NOT1              |NOTFUNC__467  |     1|
+|698   |      NOT2              |NOTFUNC__466  |     1|
+|699   |      NOT3              |NOTFUNC__465  |     1|
+|700   |      NOT4              |NOTFUNC__464  |     1|
+|701   |    \ro_blocks[58].ro1  |ro_unit__117  |     5|
+|702   |      NAND0             |NANDFUNC__117 |     1|
+|703   |      NOT1              |NOTFUNC__471  |     1|
+|704   |      NOT2              |NOTFUNC__470  |     1|
+|705   |      NOT3              |NOTFUNC__469  |     1|
+|706   |      NOT4              |NOTFUNC__468  |     1|
+|707   |    \ro_blocks[58].ro2  |ro_unit__118  |     5|
+|708   |      NAND0             |NANDFUNC__118 |     1|
+|709   |      NOT1              |NOTFUNC__475  |     1|
+|710   |      NOT2              |NOTFUNC__474  |     1|
+|711   |      NOT3              |NOTFUNC__473  |     1|
+|712   |      NOT4              |NOTFUNC__472  |     1|
+|713   |    \ro_blocks[59].ro1  |ro_unit__119  |     5|
+|714   |      NAND0             |NANDFUNC__119 |     1|
+|715   |      NOT1              |NOTFUNC__479  |     1|
+|716   |      NOT2              |NOTFUNC__478  |     1|
+|717   |      NOT3              |NOTFUNC__477  |     1|
+|718   |      NOT4              |NOTFUNC__476  |     1|
+|719   |    \ro_blocks[59].ro2  |ro_unit__120  |     5|
+|720   |      NAND0             |NANDFUNC__120 |     1|
+|721   |      NOT1              |NOTFUNC__483  |     1|
+|722   |      NOT2              |NOTFUNC__482  |     1|
+|723   |      NOT3              |NOTFUNC__481  |     1|
+|724   |      NOT4              |NOTFUNC__480  |     1|
+|725   |    \ro_blocks[60].ro1  |ro_unit__121  |     5|
+|726   |      NAND0             |NANDFUNC__121 |     1|
+|727   |      NOT1              |NOTFUNC__487  |     1|
+|728   |      NOT2              |NOTFUNC__486  |     1|
+|729   |      NOT3              |NOTFUNC__485  |     1|
+|730   |      NOT4              |NOTFUNC__484  |     1|
+|731   |    \ro_blocks[60].ro2  |ro_unit__122  |     5|
+|732   |      NAND0             |NANDFUNC__122 |     1|
+|733   |      NOT1              |NOTFUNC__491  |     1|
+|734   |      NOT2              |NOTFUNC__490  |     1|
+|735   |      NOT3              |NOTFUNC__489  |     1|
+|736   |      NOT4              |NOTFUNC__488  |     1|
+|737   |    \ro_blocks[61].ro1  |ro_unit__123  |     5|
+|738   |      NAND0             |NANDFUNC__123 |     1|
+|739   |      NOT1              |NOTFUNC__495  |     1|
+|740   |      NOT2              |NOTFUNC__494  |     1|
+|741   |      NOT3              |NOTFUNC__493  |     1|
+|742   |      NOT4              |NOTFUNC__492  |     1|
+|743   |    \ro_blocks[61].ro2  |ro_unit__124  |     5|
+|744   |      NAND0             |NANDFUNC__124 |     1|
+|745   |      NOT1              |NOTFUNC__499  |     1|
+|746   |      NOT2              |NOTFUNC__498  |     1|
+|747   |      NOT3              |NOTFUNC__497  |     1|
+|748   |      NOT4              |NOTFUNC__496  |     1|
+|749   |    \ro_blocks[62].ro1  |ro_unit__125  |     5|
+|750   |      NAND0             |NANDFUNC__125 |     1|
+|751   |      NOT1              |NOTFUNC__503  |     1|
+|752   |      NOT2              |NOTFUNC__502  |     1|
+|753   |      NOT3              |NOTFUNC__501  |     1|
+|754   |      NOT4              |NOTFUNC__500  |     1|
+|755   |    \ro_blocks[62].ro2  |ro_unit__126  |     5|
+|756   |      NAND0             |NANDFUNC__126 |     1|
+|757   |      NOT1              |NOTFUNC__507  |     1|
+|758   |      NOT2              |NOTFUNC__506  |     1|
+|759   |      NOT3              |NOTFUNC__505  |     1|
+|760   |      NOT4              |NOTFUNC__504  |     1|
+|761   |    \ro_blocks[63].ro1  |ro_unit__127  |     5|
+|762   |      NAND0             |NANDFUNC__127 |     1|
+|763   |      NOT1              |NOTFUNC__511  |     1|
+|764   |      NOT2              |NOTFUNC__510  |     1|
+|765   |      NOT3              |NOTFUNC__509  |     1|
+|766   |      NOT4              |NOTFUNC__508  |     1|
+|767   |    \ro_blocks[63].ro2  |ro_unit       |     5|
+|768   |      NAND0             |NANDFUNC      |     1|
+|769   |      NOT1              |NOTFUNC__1    |     1|
+|770   |      NOT2              |NOTFUNC__2    |     1|
+|771   |      NOT3              |NOTFUNC__3    |     1|
+|772   |      NOT4              |NOTFUNC       |     1|
++------+------------------------+--------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:38 . Memory (MB): peak = 875.328 ; gain = 505.793
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:29 . Memory (MB): peak = 875.328 ; gain = 179.957
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:39 . Memory (MB): peak = 875.328 ; gain = 505.793
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 52 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+INFO: [Common 17-83] Releasing license: Synthesis
+37 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:35 ; elapsed = 00:00:41 . Memory (MB): peak = 875.328 ; gain = 517.266
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/workspace/2020/vivado-project/puf_soc/puf_soc.runs/design_1_ro_puf_0_0_synth_1/design_1_ro_puf_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1482] Added synthesis output to IP cache for IP c:/workspace/2020/vivado-project/puf_soc/puf_soc.srcs/sources_1/bd/design_1/ip/design_1_ro_puf_0_0/design_1_ro_puf_0_0.xci
+INFO: [Coretcl 2-1174] Renamed 771 cell refs.
+WARNING: [Constraints 18-5210] No constraint will be written out.
+INFO: [Common 17-1381] The checkpoint 'C:/workspace/2020/vivado-project/puf_soc/puf_soc.runs/design_1_ro_puf_0_0_synth_1/design_1_ro_puf_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file design_1_ro_puf_0_0_utilization_synth.rpt -pb design_1_ro_puf_0_0_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 875.328 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 22 00:18:24 2020...
